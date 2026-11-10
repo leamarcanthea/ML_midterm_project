@@ -1,0 +1,4 @@
+,RMSE train,RMSE test,MAE train,MAE test,R2 train,R2 test
+Baseline (mean),6.114,6.135,5.49,5.501,0.0,-0.0
+OLS,5.175,5.241,4.34,4.388,0.283,0.27
+Random forest,3.572,3.566,2.481,2.509,0.659,0.662
