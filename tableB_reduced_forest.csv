@@ -1,0 +1,4 @@
+,RMSE train,RMSE test,MAE train,MAE test,R2 train,R2 test,RMSE gap (test - OOB)
+"RF, all 9 predictors",3.572,3.566,2.481,2.509,0.659,0.662,-0.006
+"RF, 5 predictors (same settings)",4.117,4.122,2.968,2.983,0.546,0.548,0.005
+"RF, 5 predictors (re-tuned)",4.107,4.125,2.985,3.004,0.549,0.548,0.018

@@ -1,0 +1,6 @@
+,"importance (increase in OOB MSE, Å²)",std. error across trees,relative to mean tree OOB MSE (%)
+F9,13.849,0.158,46.991
+F8,16.008,0.073,54.316
+F3,19.117,0.16,64.864
+F7,20.021,0.197,67.933
+"F1, F2, F4, F5, F6",46.107,0.161,156.441

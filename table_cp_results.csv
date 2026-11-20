@@ -1,0 +1,19 @@
+split,model,method,alpha,RCS,RMWS,target,target reached (RCS >= 1 - alpha)
+42,OLS,Split (normalised),0.01,0.9909,23.9308,0.99,True
+42,OLS,CV,0.01,0.9891,25.295,0.99,False
+42,OLS,CQR,0.01,0.9908,19.5633,0.99,True
+42,Random forest,Split (normalised),0.01,0.9913,21.3058,0.99,True
+42,Random forest,CV,0.01,0.9921,22.3245,0.99,True
+42,Random forest,CQR,0.01,0.991,16.335,0.99,True
+42,OLS,Split (normalised),0.05,0.9449,15.9835,0.95,False
+42,OLS,CV,0.05,0.9458,19.0722,0.95,False
+42,OLS,CQR,0.05,0.9487,17.092,0.95,False
+42,Random forest,Split (normalised),0.05,0.9506,12.411,0.95,True
+42,Random forest,CV,0.05,0.9508,15.3314,0.95,True
+42,Random forest,CQR,0.05,0.9576,12.8411,0.95,True
+42,OLS,Split (normalised),0.1,0.8959,13.4494,0.9,False
+42,OLS,CV,0.1,0.8981,16.1871,0.9,False
+42,OLS,CQR,0.1,0.8955,15.4912,0.9,False
+42,Random forest,Split (normalised),0.1,0.8926,9.52,0.9,False
+42,Random forest,CV,0.1,0.9063,12.1106,0.9,True
+42,Random forest,CQR,0.1,0.9239,10.8902,0.9,True

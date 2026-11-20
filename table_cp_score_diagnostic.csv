@@ -1,0 +1,19 @@
+model,method,alpha,target,share of calibration scores <= q,share of calibration scores tied at q,share of distinct scores
+OLS,CQR,0.01,0.99,0.9903,0.0001,0.9904
+OLS,CV,0.01,0.99,0.9901,0.0,0.9935
+OLS,Split (normalised),0.01,0.99,0.9903,0.0002,0.9904
+Random forest,CQR,0.01,0.99,0.9903,0.0001,0.5784
+Random forest,CV,0.01,0.99,0.9901,0.0,0.9856
+Random forest,Split (normalised),0.01,0.99,0.9903,0.0001,0.9901
+OLS,CQR,0.05,0.95,0.9503,0.0001,0.9904
+OLS,CV,0.05,0.95,0.9501,0.0001,0.9935
+OLS,Split (normalised),0.05,0.95,0.9503,0.0001,0.9904
+Random forest,CQR,0.05,0.95,0.961,0.0142,0.5285
+Random forest,CV,0.05,0.95,0.9501,0.0,0.9856
+Random forest,Split (normalised),0.05,0.95,0.9503,0.0001,0.9901
+OLS,CQR,0.1,0.9,0.9003,0.0001,0.9904
+OLS,CV,0.1,0.9,0.9001,0.0,0.9935
+OLS,Split (normalised),0.1,0.9,0.9003,0.0002,0.9904
+Random forest,CQR,0.1,0.9,0.9224,0.0247,0.5758
+Random forest,CV,0.1,0.9,0.9001,0.0,0.9856
+Random forest,Split (normalised),0.1,0.9,0.9003,0.0001,0.9901
